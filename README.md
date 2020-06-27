@@ -22,6 +22,11 @@ Each test is in its own folder that contains a couple of files:
   printable binary, so you'll probably want to open it in a hex editor or
   examine it with a tool like Wireshark!
 
+The test folders are just numbered in the order I wrote them, which is somewhat
+arbitrary but tries to be in increasing "trickyness." Tests 1-5 are
+straightforward and don't do anything too tricky with DNS. Tests after that are
+a bit more sinister.
+
 **Will it work in my DNS server written in Rust/Haskell/Clojure/Shakespeare?**
 
 These tests all treat the DNS server as a black box, so they should be fully
