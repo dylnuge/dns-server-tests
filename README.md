@@ -43,3 +43,11 @@ You can always look in the `whats_happening` file if you're unsure!
 Yes! If you don't control that server, you should probably check with the
 administrator of it first, though. Some of these tests have the possibility of
 crashing servers.
+
+**What work is still todo on this?**
+
+I'm going to organize the tests better than just `test1`, `test2`, and so on. I
+also want to add support to the test run script for showing the response
+received (and maybe even validating it) at some point.
+
+And there's a lot more things I want to test.
